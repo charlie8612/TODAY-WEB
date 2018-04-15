@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/animate.css">
+  <link rel="stylesheet" href="aos-master/dist/aos.css" />
+
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <link rel="icon" href="./src/logo.png">
+  <link rel="icon" href="./src/favicon.png">
+
+  <meta property="og:title" content="today" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://todayapp.000webhostapp.com/" />
+  <meta property="og:image" content="https://todayapp.000webhostapp.com/src/fb_img.png" />
+  <meta property="og:description" content="YOUR SPARE TIME HAS NEVER BEEN SO REWARDING" />
+  <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/earlyaccess/notosanstc.css" rel="stylesheet">
+
+  <title>today</title>
+</head>
+
+<body>
+  <script src="aos-master/dist/aos.js"></script>
+  <script>
+  AOS.init({
+    offset:200,
+    duration:300,
+    easing:'ease',
+    delay:200,
+    once: true
+  });
+  </script>
+
+  <div class="wrapper-full" id = "wrapper">
+    <div class="logoContainer">
+      <a href="#top_link" title="today" id = "go_to_top"><img src="./src/logo.png" class="logo" alt="it's our logo"></a>
+    </div>
+    <div class="site-navContainer" id = "nav_about_contact">
+      <div class="site-nav">
+        <a href="./index_ch.html" title = "change to chinese"> 中文</a>
+        <a href="mailto:today.nthu@gmail.com" title = "contact us by email"> CONTACT </a>
+      </div>
+    </div>
+  </div>
+  <!-- <br><br><br><br> -->
+  <a name = "top_link"></a>
+  <div class = "blank_space">
+  </div>
+  <div class = "experience_and_design" id = "nav_experience_design">
+    <div class = "experience_container">
+      <a href="#experience_link" title = "jump to experience" id = "jump_to_experience"> EXPERIENCE</a>
+    </div>
+    <div class = "design_container">
+      <a href="#design_link" title = "jump to design"  id = "jump_to_design"> DESIGN </a>
+    </div>
+  </div>
+
+  <div class="pageHeader">
+    <div class="headerLeft">
+      <div class="headerContentText">
+        <h1 class="slogan">
+          YOUR SPARE TIME  <br> HAS NEVER BEEN  <br> SO REWARDING
+        </h1>
+      </div>
+      <br />
+      <div class="getEarlyAccessButton">
+        <input type="submit" value="GET EARLY ACCESS" id="getEarlyAccessButtonId"/>
+      </div>
+    </div>
+    <div class="headerRight">
+      <div class="emailInputAnimatedContainer">
+        <div class="emailInputAnimatedHide dumb">
+          <div class="enterEmail_below">
+            <div class="getEarlyAccess_below"> <p>Get early access</p><br></br>
+            </div>
+            <form action="phpconnect.php" class = "set_to_center" method = "post">
+            <input class="emailInput" type="email" placeholder="you@email.com" autocorrect="off" autocapitalize="off" required="true" name="email" style="text-align: center;">
+            <br>
+            <input id="subscribeBtn" type="submit" value="SUBSCRIBE">
+            </form>
+            <!-- <p class="survay_info">我們希望能夠聽到大家的意見   ※以下為選填</p> -->
+            <!-- <iframe src="https://zh.surveymonkey.com/r/GJ5KC3P"  width="102%" height="60%"></iframe> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--
+  <div class="whiteSpace">
+  </div>
+-->
+  <div class="gameContainer" >
+    <div class="leftPartContainer"  data-aos="fade-up">
+      <div class="phoneBackground" data-aos="fade-up">
+        <img id="statusBar" src="./src/statusBar.svg"/>
+        <div class="innerUI">
+          <h1>MY TODO  LIST</h1>
+          <div class="listContainer">
+            <div class="checkListContainer">
+              <div id="outerCircle01" data-circle="check01Id" data-todo="todo01Id">
+                <img id="check01Id" class="hide" src="./src/check.svg" />
+              </div>
+              <div id="outerCircle02" data-circle="check02Id" data-todo="todo02Id">
+                <img id="check02Id" class="hide" src="./src/check.svg" />
+              </div>
+              <div id="outerCircle03" data-circle="check03Id" data-todo="todo03Id">
+                <img id="check03Id" class="hide" src="./src/check.svg" />
+              </div>
+            </div>
+            <div class="todosContainer">
+              <h2 id="todo01Id" class="todo01unchecked">make reservation</h2>
+              <h2 id="todo02Id" class="todo01unchecked">email my boss</h2>
+              <h2 id="todo03Id" class="todo01unchecked">study TOEFL</h2>
+            </div>            
+          </div>
+          <div class = "instrument_icon_container_phone" >
+            <div class = "piano">
+              <img src = "./src/blank_piano_icon.png" alt="piano icon" id = "piano_img_phone">
+            </div>
+            <div class = "drum">
+              <img src = "./src/blank_drum_icon.png" alt="drum icon" id = "drum_img_phone">
+            </div>
+            <div class = "guitar">
+              <img src = "./src/blank_guitar_icon.png" alt="guitar icon" id = "guitar_img_phone">
+            </div>
+            <div class = "music_play_button">
+              <img  src = "./src/play_music.png" alt = "play music button" id = "play_music_phone" onclick = "play()">
+              <!-- <audio id="audio_phone" src="./src/MIX1.mp3" hidden="true"></audio> -->
+            </div>
+          </div>          
+        </div>
+      </div>
+    </div>
+
+    <div class="rightPartContainer" data-aos="fade-up">
+      <div id="fsm" class="title">
+        <h1>LET'S TAKE A LOOK</h1>
+        <p>
+          Now you have some events to finish.<br>
+          Let’s get them done one by one.<br>
+          “Click on a circle to finish an event.”<br>
+        </p>
+      </div>
+      <div class = "instrument_icon_container" >
+        <div class = "piano">
+          <img src = "./src/blank_piano_icon.png" alt="piano icon" id = "piano_img">
+        </div>
+        <div class = "drum">
+          <img src = "./src/blank_drum_icon.png" alt="drum icon" id = "drum_img">
+        </div>
+        <div class = "guitar">
+          <img src = "./src/blank_guitar_icon.png" alt="guitar icon" id = "guitar_img">
+        </div>
+        <div class = "music_play_button">
+          <img  src = "./src/play_music.png" alt = "play music button" id = "play_music" onclick = "play()">
+          <audio id="audio" src="./src/MIX1.mp3" hidden="true"></audio>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a name="experience_link" id = "experience_link"></a>
+  <div class="experienceContainer">
+    <div class="experience01Container">
+      <div class="experience01words">
+        <div class="experience01title" data-aos="fade-right">
+          <div class="titleBox" >
+            <h1>01</h1>
+          </div>
+          <div class="titleContent" >
+            <h1>GET SMALL THINGS <br><span class="biggerText">DONE</span></br></h1>
+          </div>
+        </div>
+        <div class="experience01content" data-aos="fade-right" data-aos-delay: 200;>
+          <div class="experience01icon">
+            <img src="./src/clock.svg"/ alt="clock icon">
+            <img src="./src/calender.svg" alt="calender icon"/>
+            <img src="./src/place.svg" alt="place icon"/>
+          </div>
+          <div class="experience01discript">
+            <div class="questions">
+              <h1>How long do you need?</h1>
+              <h1>When is the deadline?</h1>
+              <h1>Do you have to do it at a certain place?</br></h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="experience01phone" data-aos="fade-left" data-aos-delay: 200;>
+        <img src="./src/UI01.png"/ alt="create event user interface">
+      </div>
+    </div>
+
+    <div class="quote">
+      <h1>“At any point in time, knowing what has to get done,
+            and when, creates a terrain for maneuvering.” </h1>
+      <h1>~David Allen</h1>
+    </div>
+
+    <div class="experience02Container">
+      <div class="experience01title" data-aos="fade-right">
+        <div class="titleBox">
+          <h1>02</h1>
+        </div>
+        <div class="titleContent">
+          <h1>STOP  <span class="biggerTextGray"> SWIPING</span> <br>START<span class="biggerText"> LEARNING</span></br></h1>
+        </div>
+      </div>
+      <div class="experience02first" data-aos="fade-down">
+        <h1>How long do you have?</h1>
+        <img src="./src/timeChoice.svg"/>
+        <h1>minutes</h1>
+      </div>
+
+      <div class="experience02second" data-aos="fade-down">
+        <h1>Feel like doing?</h1>
+        <div class="experience02secondIconContainer">
+          <div class="article">
+            <img src="./src/articleIcon.svg" alt="article icon">
+            <h1>reading<br>articles</br></h1>
+          </div>
+          <div class="video">
+            <img src="./src/videoIcon.svg" alt="article icon">
+            <h1>watching<br>videos</br></h1>
+          </div>
+          <div class="money">
+            <img src="./src/moneyIcon.svg" alt="article icon">
+            <h1>earning<br>money</br></h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class = "platform_container" data-aos="fade-down">
+      <h1 class = "orange_text">Providing right amout of content</h1>
+      <h1 class = "grey_text">from existing platforms.</h1>
+      <div class = "platform_icon_container">
+        <div class = "CNN">
+          <img src = "./src/CNN_icon.png" alt="platform CNN icon">
+        </div>
+        <div class ="TC">
+          <img src ="./src/TC_icon.png" alt="platform TC icon">
+        </div>
+        <div class = "TED">
+          <img src = "./src/TED_icon.png" alt="platform TED icon">
+        </div>
+        <div class = "Youtube">
+          <img src = "./src/YouTube_icon.png" alt="platform Youtube icon">
+        </div>
+      </div>
+    </div>
+
+    <div class = "coming_soon">
+      coming soon
+    </div>
+
+    <div class = "coming_features_container">
+      <div class = "Friday_night">
+        <img src = "./src/fridayicon.svg" alt="Friday night icon">
+        <h3>FRIDAYS ONLY</h3>
+      </div>
+      <div class = "Holiday_special">
+        <img src = "./src/holidayIcon.svg" alt="Holiday special icon">
+        <h3>HOLIDAY SPECIALS</h3>
+      </div>
+    </div>
+    <a name = "design_link" id = "design_link"></a>
+  </div>
+
+  <div class = "feature_explain_container" >
+    <div class = "date_picker" data-aos="fade-down" data-aos-offset:100;>
+      <img src = "./src/datePickerIcon.svg" alt="date picker icon">
+      <h1> REINVENTING THE DATE PICKER <br /> AND EVERYTHING </h1>
+      <p>
+        Brand new interface makes your operation simpler and faster.<br>Listing is no longer a trouble.
+      </p>
+    </div>
+    <div class = "music" >
+      <img src = "./src/musicIcon.svg" alt="music icon">
+      <h1> LISTEN TO YOUR DAILY ACHIEVEMENTS </h1>
+      <p>
+        Finish your unfinished tasks.<br>Enjoy daily achievement, and listen to relaxing music.
+      </p>
+    </div>
+    <div class = "everyday" >
+      <img src = "./src/everydayIcon.svg" alt="everyday icon">
+      <h1> STICK TO YOUR EVERYDAY PRACTICE </h1>
+      <p>
+        Stick to your daily practice.<br>Update your to-do list, and form a good habit.
+      </p>
+    </div>
+  </div>
+
+  <div class="enterEmail_below">
+    <div class="getEarlyAccess_below"> <p>Get early access <br></br> </div>
+      <form action="phpconnect.php" class = "set_to_center" method = "post">
+      <input class="emailInput_below" type="email" placeholder="you@email.com" autocorrect="off" autocapitalize="off" required="true"
+       style="text-align: center;" name="email">
+      <br>
+      <input id="subscribeBtn" type="submit" value="SUBSCRIBE">
+    </form>
+  </div>
+
+  <div class = "footer"><footer><span class = "product_name">today</span> APP Inc.2017</footer></div>
+
+  <script src="./scripts/main.js"></script>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-96551184-2', 'auto');
+    ga('send', 'pageview');
+  </script>
+  </body>
+
+  </html>

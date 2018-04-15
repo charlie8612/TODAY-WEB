@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-948 7325.529 132.5 135.5">
+  <defs>
+    <style>
+      .cls-1, .cls-5 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #fd4d3a;
+        stroke-width: 6px;
+      }
+
+      .cls-2 {
+        fill: #fafafa;
+      }
+
+      .cls-3 {
+        fill: #fd4d3a;
+        font-size: 50px;
+        font-family: HelveticaNeue, Helvetica Neue;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_826" data-name="Group 826" transform="translate(-2294 2945)">
+    <g id="Rectangle_220" data-name="Rectangle 220" class="cls-1" transform="translate(1346 4380.529)">
+      <rect class="cls-4" width="132.5" height="90.555"/>
+      <rect class="cls-5" x="3" y="3" width="126.5" height="84.555"/>
+    </g>
+    <path id="Path_1186" data-name="Path 1186" class="cls-2" d="M3615.239,432.352h42.574l27.076,73.807h-93.4Z" transform="translate(-2224.663 4006.87)"/>
+    <text id="_" data-name="$" class="cls-3" transform="translate(1393.529 4459.51) rotate(90)"><tspan x="0" y="0">$</tspan></text>
+  </g>
+</svg>

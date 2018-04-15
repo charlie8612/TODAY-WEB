@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-2116.852 1344.094 746.651 30.074">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: rgba(0,0,0,0);
+      }
+
+      .cls-2 {
+        font-size: 23px;
+        font-family: Helvetica;
+      }
+    </style>
+  </defs>
+  <g id="status_bar" data-name="status bar" transform="translate(-3487.852 1346.594)">
+    <g id="battery" transform="translate(2066.334 1.648)">
+      <path id="path" class="cls-1" d="M3.116,1.592h0A2.128,2.128,0,0,0,1.037,3.775V17.966A2.134,2.134,0,0,0,3.116,20.15H43.552a2.128,2.128,0,0,0,2.079-2.183V3.775a2.134,2.134,0,0,0-2.079-2.183ZM3.116.5H43.552a3.2,3.2,0,0,1,3.116,3.275V17.966a3.194,3.194,0,0,1-3.116,3.275H3.116A3.2,3.2,0,0,1,0,17.966V3.775A3.194,3.194,0,0,1,3.116.5Z" transform="translate(0 -0.5)"/>
+      <rect id="rectangle" class="cls-1" width="18.667" height="16.593" rx="1" transform="translate(2.074 2.074)"/>
+      <path id="path-2" data-name="path" class="cls-1" d="M26.111,7.593A3.631,3.631,0,0,1,23,11.186V4A3.631,3.631,0,0,1,26.111,7.593Z" transform="translate(24.705 3.259)"/>
+    </g>
+    <text id="battery_percent" data-name="battery percent" class="cls-2" transform="translate(2008.259 20.5)"><tspan x="0" y="0">42%</tspan></text>
+    <path id="bluetooth" d="M311.184,26.044v-7.38l3.551,3.867-3.551,3.513ZM314.9,11.478l-3.714,3.736V8.136l3.714,3.342ZM312.076,17l5.511-5.526L309.364,3.5h-.194V14.6l-5.581-5.851L302,10.405l6.715,6.6L302,23.6l1.589,1.66,5.581-5.851v11.1h.355l8.141-8L312.076,17Z" transform="translate(1679.295 -3.926)"/>
+    <text id="time" class="cls-2" transform="translate(1695.065 22.574)"><tspan x="0" y="0">9:41 AM</tspan></text>
+    <path id="wifi" class="cls-1" d="M96.936,8.655a16,16,0,0,1,10.5,3.912l1.952-2.155A18.242,18.242,0,0,0,84.5,10.4l1.948,2.158a16,16,0,0,1,10.488-3.9Zm0,6.221a9.724,9.724,0,0,1,6.313,2.318l2.065-2.281A12.6,12.6,0,0,0,88.568,14.9l2.062,2.284a9.72,9.72,0,0,1,6.306-2.312Zm4.247,4.6a6.4,6.4,0,0,0-8.491-.005l4.243,4.7,4.248-4.693Z" transform="translate(1452.931 -3.852)"/>
+    <text id="carrier" class="cls-2" transform="translate(1448.243 20.5)"><tspan x="0" y="0">Carrier</tspan></text>
+    <g id="signal_strength" data-name="signal strength" transform="translate(1371.5 7.871)">
+      <circle id="black_circle" data-name="black circle" class="cls-1" cx="5.704" cy="5.704" r="5.704"/>
+      <circle id="black_circle-2" data-name="black circle" class="cls-1" cx="5.704" cy="5.704" r="5.704" transform="translate(14.519)"/>
+      <circle id="black_circle-3" data-name="black circle" class="cls-1" cx="5.704" cy="5.704" r="5.704" transform="translate(29.038)"/>
+      <path id="white_circle" data-name="white circle" class="cls-1" d="M26.7,10.371h0A4.667,4.667,0,1,0,22.037,5.7,4.667,4.667,0,0,0,26.7,10.371Zm0,1.037h0a5.7,5.7,0,1,1,5.7-5.7,5.7,5.7,0,0,1-5.7,5.7Z" transform="translate(22.557)"/>
+      <path id="white_circle-2" data-name="white circle" class="cls-1" d="M33.7,10.371h0A4.667,4.667,0,1,0,29.037,5.7,4.667,4.667,0,0,0,33.7,10.371Zm0,1.037h0a5.7,5.7,0,1,1,5.7-5.7,5.7,5.7,0,0,1-5.7,5.7Z" transform="translate(30.076)"/>
+    </g>
+  </g>
+</svg>
