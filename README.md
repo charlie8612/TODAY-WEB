@@ -32,4 +32,4 @@ EARNING MONEY 這是一個未完成的構想項目，會希望結合類似免費
 database的處理
 landing page裡面demo頁面的功能
 音樂的演奏及剪接
-以及部分applayout的調整
+以及部分applayout、功能的調整
